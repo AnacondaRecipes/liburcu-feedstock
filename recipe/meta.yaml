@@ -36,12 +36,17 @@ about:
   home: https://liburcu.org/
   license: LGPL-2.0-or-later
   license_file: LICENSE
+  license_url: https://github.com/urcu/userspace-rcu/blob/master/LICENSE
+  license_family: LGPL
   summary: liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library
   description: |
     liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library
   doc_url: https://liburcu.org/
+  doc_source_url: https://github.com/urcu/userspace-rcu/tree/master/doc
   dev_url: https://github.com/urcu/userspace-rcu
 
 extra:
+  skip-lints:
+    - missing_tests
   recipe-maintainers:
     - ZimmerA
